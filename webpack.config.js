@@ -5,6 +5,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: './src/app.js',
     // definiuje plik wejściowy
+    mode: 'development',
+    // tryb pracy
     output: {
         path: path.resolve(__dirname, 'build'),
         // definiuje ścieżką wyjściową
